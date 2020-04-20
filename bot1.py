@@ -5,10 +5,10 @@ import time
 from telebot import types
 
 
-token="1222125374:AAG_pT905_e68uB4LHVXFXDXYzRTWll7wuM"
+token='your_bot_token'
 bot=telebot.TeleBot(token)
 
-'''server=Flask(__name__)'''
+
 
 @bot.message_handler(commands=['start'])
 def start_message(msg):
